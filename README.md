@@ -12,7 +12,7 @@ cuda 11.8
   You can also download a docker image containing our tool and environment from <a href="https://janus-bucket.s3.us-east-2.amazonaws.com/JANUS-image.tar.gz">this link</a>. 
   The size of the image is 5.5GB.
 # Usage
-1. Put the contract to be analyzed in JANUS/contracts/
+1. Put the contract to be analyzed into `JANUS/contracts/`
 
 2. Then run 
 
@@ -22,10 +22,12 @@ cuda 11.8
 
      options:
 
-     `fvars` (optional): speicifying the financial variables or other target variables
+     `fvars` (optional): specifying the financial variables or other target variables
 
-     `sol`:  speicifying the name of the contract 
+     `sol`:  specifying the name of the contract 
 # Examples
 1. Examples with backdoors: `JANUS/contracts/example.sol` `JANUS/contracts/example2.sol`
 2. An example without backdoors: `JANUS/contracts/safe_example.sol `
 3. An example with backdoors that other tools cannot detect: `JANUS/contracts/example_pm.sol`
+
+You can try JANUS on the above examples by running `python validate.py --sol=filename (e.g., example)`
