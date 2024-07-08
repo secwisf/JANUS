@@ -21,8 +21,8 @@ cuda 11.8
 
      `fvars` (optional): speicifying the financial variables or other target variables
 
-     `sol`:  speicifying the file to be analyzed
+     `sol`:  speicifying the name of the contract 
 # Examples
 1. Examples with backdoors: `JANUS/contracts/example.sol` `JANUS/contracts/example2.sol`
 2. An example without backdoors: `JANUS/contracts/safe_example.sol `
-3. AN example with backdoors that other tools cannot detect: `JANUS/contracts/example_pm.sol`
+3. An example with backdoors that other tools cannot detect: `JANUS/contracts/example_pm.sol`
