@@ -1,0 +1,1 @@
+SelfDestructSummary = {'extra_type': 'selfdestruct'}
