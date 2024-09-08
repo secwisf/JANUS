@@ -9,7 +9,7 @@ Ubuntu 20.04, Python 3.8.10
 3. Optional:
 cuda 11.8
 
-  You can also download a docker image containing our tool and environment from <a href="https://janus-bucket.s3.us-east-2.amazonaws.com/JANUS-image.tar.gz">this link</a>. 
+  You can also download a docker image containing our tool and environment from <a href="https://janus-image-1329356540.cos.ap-hongkong.myqcloud.com/JANUS-image.tar.gz">this link</a>. 
   The size of the image is 5.5GB.
 # Usage
 1. Put the contract to be analyzed into `JANUS/contracts/`
